@@ -1,5 +1,6 @@
 import java.util.Date;
 
+
 public class Event {
 	private String name;
 
@@ -9,6 +10,7 @@ public class Event {
 	Event(String name) {
 		this.name = name;
 	}
+
 
 	// PROPERTIES
 
