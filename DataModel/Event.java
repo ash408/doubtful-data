@@ -1,7 +1,7 @@
 import java.util.Date;
 
 
-public class Event {
+public class Event extends BaseModel {
 	private String name;
 
 	private Date startDate;
