@@ -30,4 +30,11 @@ public class Link extends BaseModel {
 	public void setSecondID(UUID id) {
 		secondID = id;
 	}
+
+
+	// METHODS
+
+	public static Link createLink(BaseModel model1, BaseModel model2) {
+		return new Link(model1.id, model2.id);
+	}
 }
