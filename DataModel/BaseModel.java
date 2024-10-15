@@ -1,3 +1,5 @@
+package DataModel;
+
 import java.util.UUID;
 
 
@@ -6,7 +8,7 @@ public class BaseModel {
 
 	public BaseModel() {
 		id = UUID.randomUUID();
-	{
+	}
 
 	public UUID getID() {
 		return id;

@@ -1,3 +1,5 @@
+package DataModel;
+
 
 public class Node extends BaseModel {
 	private String name;
