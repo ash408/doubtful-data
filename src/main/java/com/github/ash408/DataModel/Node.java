@@ -1,4 +1,4 @@
-package DataModel;
+package com.github.ash408.DataModel;
 
 
 public class Node extends BaseModel {
