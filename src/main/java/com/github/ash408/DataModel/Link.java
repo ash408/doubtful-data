@@ -4,8 +4,8 @@ import java.util.UUID;
 
 
 public class Link extends BaseModel {
-	UUID firstID;
-	UUID secondID;
+	private UUID firstID;
+	private UUID secondID;
 
 	Link(UUID firstID, UUID secondID) {
 		this.firstID = firstID;
